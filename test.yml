@@ -1,0 +1,11 @@
+server:
+  #server port
+  #type: string
+  port: ${SERVER_PORT}
+
+app:
+  #tmp folder
+  tmp: ${TMP_FOLDER}
+  #enable migration
+  #type: bool
+  enable: ${ENABLE_MIGRATION:false}
